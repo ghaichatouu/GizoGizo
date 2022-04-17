@@ -1,0 +1,19 @@
+
+
+
+header{
+    background-color: rgb(67, 9, 126);
+    min-height: 50vh;
+}
+.aaa{
+    background-image: url(7.jpg);
+    background-size: cover;
+   min-height: 20vh;}
+  
+.background-overlay{
+    background-color: rgba(67, 9, 126, 0.746);
+    min-height: 20vh;}
+.ccc{
+    background-image: url(6.jpg);
+    background-size: cover;
+   min-height: 20vh;}

@@ -1,0 +1,201 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+<!--Import Google Icon Font-->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!--Import materialize.css-->
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!--Let browser know website is optimized for mobile-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<title>GizoGizo</title>
+</head>
+<body>
+<header >
+<div class="navbar-fixed">
+<nav class="#4a148c purple darken-4">
+  <div class="container">
+    <div class="navbar-wrapper">
+      <a href="#" class="brand-logo">GizoGizo</a>
+      <a href="#" data-target="mobile-nav" class="sidenav-trigger">
+        <i class="material-icons">menu</i>
+      </a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="index.html" style="color: #8b008b;"  >Home</a></li>
+        <li><a href="solution.html">solutions</a></li>
+        <li><a href="sign-Up.html">Sign Up</a></li>
+        <li><a class="waves-effect waves-light #d500f9 purple accent-3-text btn modal-trigger" href="#modal1">LOGIN</a></li>
+
+  <!-- Modal Trigger -->
+ 
+
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal black-text" >
+    <div class="modal-content">
+        <h5>Account Login</h5>
+        <p>Login to access your account dashboard</p>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="password" type="password" class="validate">
+          <label for="password">Password</label>
+        </div>
+        <div class="input-field col s12">
+          <input id="email" type="email" class="validate">
+          <label for="email">Email</label>
+        </div>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">
+          <button class="btn waves-effect waves-light2  #424242 grey darken-3 "  type=" READ MORE" name="action" ><i class="fa-solid fa-arrows-rotate"></i> 
+        RESET PASSWORD</button></a>
+          <a class="waves-effect waves-light   #d500f9 purple accent-3-text btn modal-trigger" href="#modal1">
+              <i class="fa-solid fa-lock"></i>  LOGIN</a>
+              
+            </div>
+    </div>
+  
+        <li> <a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+        <li> <a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+        <li> <a href="#"><i class="fa-brands fa-instagram-square"></i></a></li>
+      </ul>
+      
+    </div>
+    </div>
+  </div>
+</nav>
+</div>
+<ul class="sidenav" id="mobile-nav">
+<li><a href="#"><i class="fa-solid fa-house"></i>Home</a></li>
+<li><a href="solution.html"><i class="fa-solid fa-gear"></i>solutions</a></li>
+<li><a href="sign-Up.html"><i class="fa-solid fa-users"></i>Sign Up</a></li>
+<li><a class="waves-effect waves-light  #d500f9 purple accent-3-text  btn">LOGIN</a></li>
+</ul>
+
+ 
+ <div class="container center white-text" style="padding-top: 5%;">
+    <div class="row">
+      <div class="col  s12 m12">
+     <h5>Welcome To GizoGizo</h5>
+     <h3>Create An Account</h3>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m6">
+                <h5>Get a free account </h5>
+             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus culpa voluptas eligendi nisi, ab a provident inventore blanditiis expedita architecto libero? Ex nemo facere iusto maxime distinctio natus reprehenderit a.</p>
+            <h5>Download the free software</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, aut porro ullam tenetur ab perferendis atque nobis ipsum nihil dicta praesentium consequuntur fugit, corrupti similique, officiis fuga quam impedit nam!</p>
+            <h5>Push to the platform</h5>
+             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, blanditiis, quis unde ab perferendis dolorum temporibus sunt rem dolor optio consectetur facere omnis vitae obcaecati totam odit minus modi ipsum.</p>
+            </div>
+             <div class="col s12 m6 ">
+                <div class="card-panel grey lighten-3">
+            <div class="input-field">
+            <input type="text" placeholder="First Name">
+             </div>
+            <div class="input-field">
+              <input type="text" placeholder="Last Name">
+              </div>
+              <div class="input-field">
+                <input type="text" placeholder="Email">
+               </div>
+                <div class="input-field">
+                  <input type="text" placeholder="Password">
+                   </div>
+                   <div class="input-field">
+                    <input type="text" placeholder="company">
+                     </div>
+                     <div class="input-field col s12">
+                        <select>
+                          <option value="" disabled selected>Select Role</option>
+                          <option value="1">Professional Developer</option>
+                          <option value="2">Hobbyist</option>
+                          <option value="3">Student</option>
+                          <option value="3">Manager</option>
+                          <option value="3">Other</option>
+                        </select>
+                        <label>Role</label>
+                      </div>
+                      <a href="">
+                        <button class="btn waves-effect waves-light2  #d500f9 purple accent-3-text " style="width: 100%;" type="SIGN UP" name="action">SIGNUP </button>
+                       </a>
+                  </button>
+    
+                </div>
+              </div>
+        </div>
+    </div>
+</section>
+
+<section  class="#aa00ff purple accent-4 white-text center scrollspy " style="padding-bottom: 7px;">
+    <div class="container">
+    <div class="row">
+        <div class="col s12 m6">
+       <h4>About Us</h4>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, sequi.</p>
+        </div>
+        <div class="col s12 m6">
+           <h4>Links</h4>
+            <p>Home 1</p>
+            <p>Solutions</p>
+            <p>Signup</p>
+        </div>
+    </div>
+    </div>
+</section>
+              <footer  style=" background-color: rgb(67, 9, 126);">
+                <div class="container white-text">
+                  <div class="row">
+                      <div class="col s12 m6">
+                    <h5>GizoGizo © 2019</h5>
+                      </div>
+                      <div class="col s12 m6 ">
+                        <h5 class="right hide-on-med-and-down">Terms & conditions</h5>
+                      </div>
+                  </div>
+                  </div>
+              </footer>
+
+
+
+
+
+
+ <!--JavaScript at end of body for optimized loading-->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    var nav = document.querySelectorAll('.sidenav');
+    M.Sidenav.init(nav, {});
+
+  });
+
+  $(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
+
+  $(document).ready(function(){
+    $('select').formSelect();
+  });
+    
+  $(document).ready(function(){
+    $('.modal').modal();
+  });
+</script>
+</body>
+</html>
